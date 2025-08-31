@@ -7,3 +7,7 @@ Login to the game using SSH.
 
 1. Connected to the Bandit Server using SSH and given login information
     ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+# Learned
+
+How to use SSH and its parameters.
