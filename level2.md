@@ -4,6 +4,8 @@
 Find the password located within file "-"
 
 # Solution Steps
+1. Log in to Bandit Server using ssh 
+    ssh bandit1@bandit.labs.overthewire.org -p 2220
 1. Examined files within directory
     ls
 2. Found file "-" and attempted to examine contents of file
