@@ -1,2 +1,2 @@
-# overtherwire-bandit
+# overthewire-bandit
 My progression through OverTheWire Bandit challenges.
