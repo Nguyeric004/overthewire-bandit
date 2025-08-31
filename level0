@@ -1,1 +1,9 @@
-# Bandit levels 0 - 5
+# Bandit level 0
+
+# Objective
+Login to the game using SSH.
+
+# Solution Steps
+
+1. Connected to the Bandit Server using SSH and given login information
+    ssh bandit0@bandit.labs.overthewire.org -p 2220
