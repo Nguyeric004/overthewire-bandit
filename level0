@@ -9,5 +9,4 @@ Login to the game using SSH.
     ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 # Learned
-
 How to use SSH and its parameters.
