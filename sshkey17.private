@@ -1,23 +1,4 @@
-# Bandit level 17
-
-# Objective
-Find the password on localhost in range 31000 and 32000 that has SSL/TLS
-
-# Solution Steps
-1. Log in to Bandit Server using ssh
-    ssh bandit16@bandit.labs.overthewire.org -p 2220
-2. Examined contents of directory
-    ls
-3. Found nothing, scanned for open ports on localhost
-    nc -z localhost 31000-32000
-4. Found 5 open ports, tried each connection and entered in current password 
-    openssl s_client -connect localhost:31046
-    openssl s_client -connect localhost:31518
-    openssl s_client -connect localhost:31691
-    openssl s_client -connect localhost:31790
-    openssl s_client -connect localhost:31960
-5. Extracted password from correct port 
-    password: -----BEGIN RSA PRIVATE KEY-----
+-----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
 imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
 Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
@@ -44,6 +25,3 @@ YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
 dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
-
-# Learned
-How to check a range of ports for open connection and check ports for ssl encryption
