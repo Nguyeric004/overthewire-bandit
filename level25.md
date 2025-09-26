@@ -35,7 +35,9 @@ Use the password for the last level along with a numeric 4-digit code to get the
     cat pincodes.txt | nc localhost 30002
 12. Extracted password from output
     password: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4 
-
+13. Removed directory for script
+    cd ..
+    rm -rf script24
 
 # Learned
 How to make a loop inside a shell script and use files in a pipe
