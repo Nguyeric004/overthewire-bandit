@@ -20,7 +20,7 @@ Find the shell for the user bandit26 which isnt /bin/bash and break out of it af
     man more
 8. Found that more displays text based on size of screen/window or one "screen full at a time" and that it can run commands through vi with command v. Checked what vi is.
     man vi
-9. Found that vi is vim and that vim can run commands with the option e with prefix :. Tried more command on sshkey
+9. Found that vi is and editor, very similar to vim, and that vi can run commands with the option e with prefix :. Tried more command on sshkey
     more bandit26.sshkey
 10. Tried to access vim and run a random command
     v
