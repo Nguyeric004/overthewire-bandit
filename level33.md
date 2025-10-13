@@ -1,7 +1,7 @@
 # Bandit level 33
 
 # Objective
-
+Figure out how to escape uppercase shell and find password
 
 # Solution Steps
 1. Log in to Bandit Server using ssh
